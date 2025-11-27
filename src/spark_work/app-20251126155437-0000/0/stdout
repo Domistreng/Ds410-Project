@@ -1,0 +1,38 @@
+25/11/26 15:54:38 INFO CoarseGrainedExecutorBackend: Started daemon with process name: 2047312@p-sc-2364
+25/11/26 15:54:38 INFO SignalUtils: Registering signal handler for TERM
+25/11/26 15:54:38 INFO SignalUtils: Registering signal handler for HUP
+25/11/26 15:54:38 INFO SignalUtils: Registering signal handler for INT
+25/11/26 15:54:38 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/11/26 15:54:38 INFO SecurityManager: Changing view acls to: dfs5910
+25/11/26 15:54:38 INFO SecurityManager: Changing modify acls to: dfs5910
+25/11/26 15:54:38 INFO SecurityManager: Changing view acls groups to: 
+25/11/26 15:54:38 INFO SecurityManager: Changing modify acls groups to: 
+25/11/26 15:54:38 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/11/26 15:54:39 INFO TransportClientFactory: Successfully created connection to p-sc-2357.2e.hpc.psu.edu/10.6.1.127:43331 after 56 ms (0 ms spent in bootstraps)
+25/11/26 15:54:39 INFO SecurityManager: Changing view acls to: dfs5910
+25/11/26 15:54:39 INFO SecurityManager: Changing modify acls to: dfs5910
+25/11/26 15:54:39 INFO SecurityManager: Changing view acls groups to: 
+25/11/26 15:54:39 INFO SecurityManager: Changing modify acls groups to: 
+25/11/26 15:54:39 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/11/26 15:54:39 INFO TransportClientFactory: Successfully created connection to p-sc-2357.2e.hpc.psu.edu/10.6.1.127:43331 after 11 ms (0 ms spent in bootstraps)
+25/11/26 15:54:39 INFO DiskBlockManager: Created local directory at /tmp/spark-21aad38e-d6e1-45d1-832e-c92a32db7735/executor-6cd679f2-6ab7-48de-8b41-70a9deb438e4/blockmgr-3f8d35cf-732d-4393-b7cc-6142702591e4
+25/11/26 15:54:39 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+25/11/26 15:54:39 INFO WorkerWatcher: Connecting to worker spark://Worker@10.6.1.134:44869
+25/11/26 15:54:39 INFO CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@p-sc-2357.2e.hpc.psu.edu:43331
+25/11/26 15:54:39 INFO ResourceUtils: ==============================================================
+25/11/26 15:54:39 INFO ResourceUtils: No custom resources configured for spark.executor.
+25/11/26 15:54:39 INFO ResourceUtils: ==============================================================
+25/11/26 15:54:39 INFO TransportClientFactory: Successfully created connection to /10.6.1.134:44869 after 12 ms (0 ms spent in bootstraps)
+25/11/26 15:54:39 INFO WorkerWatcher: Successfully connected to spark://Worker@10.6.1.134:44869
+25/11/26 15:54:39 INFO CoarseGrainedExecutorBackend: Successfully registered with driver
+25/11/26 15:54:39 INFO Executor: Starting executor ID 0 on host 10.6.1.134
+25/11/26 15:54:39 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 42781.
+25/11/26 15:54:39 INFO NettyBlockTransferService: Server created on 10.6.1.134:42781
+25/11/26 15:54:39 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/11/26 15:54:39 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(0, 10.6.1.134, 42781, None)
+25/11/26 15:54:39 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(0, 10.6.1.134, 42781, None)
+25/11/26 15:54:39 INFO BlockManager: Initialized BlockManager: BlockManagerId(0, 10.6.1.134, 42781, None)
+25/11/26 15:54:39 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+25/11/26 15:54:40 INFO CoarseGrainedExecutorBackend: Driver commanded a shutdown
+25/11/26 15:54:40 ERROR CoarseGrainedExecutorBackend: RECEIVED SIGNAL TERM
+tdown

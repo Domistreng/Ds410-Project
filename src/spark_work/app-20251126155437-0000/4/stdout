@@ -1,0 +1,23 @@
+25/11/26 15:54:38 INFO CoarseGrainedExecutorBackend: Started daemon with process name: 1060015@p-sc-2382
+25/11/26 15:54:38 INFO SignalUtils: Registering signal handler for TERM
+25/11/26 15:54:38 INFO SignalUtils: Registering signal handler for HUP
+25/11/26 15:54:38 INFO SignalUtils: Registering signal handler for INT
+25/11/26 15:54:39 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/11/26 15:54:39 INFO SecurityManager: Changing view acls to: dfs5910
+25/11/26 15:54:39 INFO SecurityManager: Changing modify acls to: dfs5910
+25/11/26 15:54:39 INFO SecurityManager: Changing view acls groups to: 
+25/11/26 15:54:39 INFO SecurityManager: Changing modify acls groups to: 
+25/11/26 15:54:39 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/11/26 15:54:39 INFO TransportClientFactory: Successfully created connection to p-sc-2357.2e.hpc.psu.edu/10.6.1.127:43331 after 67 ms (0 ms spent in bootstraps)
+25/11/26 15:54:39 INFO SecurityManager: Changing view acls to: dfs5910
+25/11/26 15:54:39 INFO SecurityManager: Changing modify acls to: dfs5910
+25/11/26 15:54:39 INFO SecurityManager: Changing view acls groups to: 
+25/11/26 15:54:39 INFO SecurityManager: Changing modify acls groups to: 
+25/11/26 15:54:39 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/11/26 15:54:39 INFO TransportClientFactory: Successfully created connection to p-sc-2357.2e.hpc.psu.edu/10.6.1.127:43331 after 19 ms (0 ms spent in bootstraps)
+25/11/26 15:54:39 INFO DiskBlockManager: Created local directory at /tmp/spark-a6ada912-c745-4cd1-87e7-44f48b00479d/executor-3afe661d-d088-4010-8ec4-29a1445aad3d/blockmgr-8150e018-8fc2-415c-8ce8-46873bee00da
+25/11/26 15:54:39 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+25/11/26 15:54:40 INFO WorkerWatcher: Connecting to worker spark://Worker@10.6.1.152:34571
+25/11/26 15:54:40 INFO CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@p-sc-2357.2e.hpc.psu.edu:43331
+25/11/26 15:54:40 INFO ResourceUtils: ==============================================================
+5:54:40 INFO CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@p-sc-2357.2e.hpc.psu.edu:43331

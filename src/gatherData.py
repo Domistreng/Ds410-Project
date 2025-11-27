@@ -7,7 +7,7 @@ randomState = 38
 
 ## DOWNLOADING LARGE DATASET
 print("Attempting to download dataset")
-if not os.path.exists('./data/raw/US_Accidents_March23.csv'):
+if not os.path.exists('../data/raw/US_Accidents_March23.csv'):
 
     path = kagglehub.dataset_download("sobhanmoosavi/us-accidents")
 
@@ -15,8 +15,8 @@ if not os.path.exists('./data/raw/US_Accidents_March23.csv'):
     for root, dirs, files in os.walk(path):
         for file in files:
             src_file = os.path.join(root, file)
-            dest_file = os.path.join('./data/raw', file)
-            shutil.move(src_file, './data/raw')
+            dest_file = os.path.join('../data/raw', file)
+            shutil.move(src_file, '../data/raw')
             print(f"Moved: {file}")
             
     shutil.rmtree(path)
@@ -29,7 +29,7 @@ else:
 
 ## BREAK OFF SAMPLE SET FOR LOCAL
 print("Attempting to sample dataset")
-if not os.path.exists('./data/processed/sample_df.csv'):
+if not os.path.exists('../data/processed/sample_df.csv'):
     sampleSize = 20000
     chunksize = 100000
 
@@ -38,7 +38,7 @@ if not os.path.exists('./data/processed/sample_df.csv'):
     
     sampled_chunks = []
     rows_sampled = 0
-    for chunk in pd.read_csv('./data/raw/US_Accidents_March23.csv', chunksize=chunksize):
+    for chunk in pd.read_csv('../data/raw/US_Accidents_March23.csv', chunksize=chunksize):
         rows_remaining = sampleSize - rows_sampled
         if rows_remaining <= 0:
             break

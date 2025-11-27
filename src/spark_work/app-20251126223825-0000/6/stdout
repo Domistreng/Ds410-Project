@@ -1,0 +1,21 @@
+25/11/26 22:38:26 INFO CoarseGrainedExecutorBackend: Started daemon with process name: 456670@p-sc-2365
+25/11/26 22:38:26 INFO SignalUtils: Registering signal handler for TERM
+25/11/26 22:38:26 INFO SignalUtils: Registering signal handler for HUP
+25/11/26 22:38:26 INFO SignalUtils: Registering signal handler for INT
+25/11/26 22:38:27 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/11/26 22:38:27 INFO SecurityManager: Changing view acls to: dfs5910
+25/11/26 22:38:27 INFO SecurityManager: Changing modify acls to: dfs5910
+25/11/26 22:38:27 INFO SecurityManager: Changing view acls groups to: 
+25/11/26 22:38:27 INFO SecurityManager: Changing modify acls groups to: 
+25/11/26 22:38:27 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/11/26 22:38:27 INFO TransportClientFactory: Successfully created connection to p-sc-2361.2e.hpc.psu.edu/10.6.1.131:45215 after 57 ms (0 ms spent in bootstraps)
+25/11/26 22:38:27 INFO SecurityManager: Changing view acls to: dfs5910
+25/11/26 22:38:27 INFO SecurityManager: Changing modify acls to: dfs5910
+25/11/26 22:38:27 INFO SecurityManager: Changing view acls groups to: 
+25/11/26 22:38:27 INFO SecurityManager: Changing modify acls groups to: 
+25/11/26 22:38:27 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/11/26 22:38:27 INFO TransportClientFactory: Successfully created connection to p-sc-2361.2e.hpc.psu.edu/10.6.1.131:45215 after 7 ms (0 ms spent in bootstraps)
+25/11/26 22:38:27 INFO DiskBlockManager: Created local directory at /tmp/spark-8362bb90-01de-46af-93a5-f496c329524c/executor-e1a8ec3e-22af-4bce-a11f-43649506f955/blockmgr-755b80df-3387-4087-9efe-dabb14576206
+25/11/26 22:38:28 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+25/11/26 22:38:28 ERROR CoarseGrainedExecutorBackend: RECEIVED SIGNAL TERM
+ MiB
