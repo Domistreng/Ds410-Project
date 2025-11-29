@@ -87,7 +87,7 @@ Key findings:
 -   City/state differences may reflect population
 
 
-# 10. Team
+# 9. Team
 
 -   Osama Al-khanjry
 -   Omer Kandemir
