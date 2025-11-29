@@ -73,9 +73,11 @@ Seaborn - Jupyter Notebook / Lab
 
 # 7. Results Summary
 
-Key findings: - Peak accident hours: late afternoon & early evening -
-Mid-week has the most accidents - Large cities have the highest volume -
-Weather + low visibility increase severity
+Key findings: 
+- Peak accident hours: late afternoon & early evening 
+- Mid-week has the most accidents 
+- Large cities have the highest volume
+- Weather + low visibility increase severity
 
 # 8. Limitations
 
