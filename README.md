@@ -1,133 +1,96 @@
-# **Project title**
+# DS/CMPSC 410 -- U.S. Car Accidents Big Data Project
 
-**Course:** DS/CMPSC 410  
-**Semester:** Fall 2025  
-**Team Members: Osama Al-khanjry, Omer Kandemir, Dominic Sitto, Faisal El-Mutawalli, Yehe qui, Siddhant Baghat**  
-**Team Name:** 
+This repository contains our big data analysis of the **U.S. Accidents
+(Kaggle)** dataset using **PySpark** and the **ROAR computing cluster**.
+The goal of the project is to understand when and where car accidents
+are most likely to occur in the United States and how conditions like
+weather, visibility, and road features affect crash frequency and
+severity.
 
----
+# 1. Project Overview
 
-## **1\. Introduction and Motivation**
+We study accident patterns across: 
+- **Time** (hour of day, weekday,
+month)
+- **Location** (cities, states, regions)
+- **Environment**(temperature, visibility, weather)
+- **Road conditions**(surface/lighting)
 
-Road accidents are a major public safety concern in the United States, with millions of incidents reported annually. While numerous studies investigate accident causes, most rely on limited regional datasets. The availability of large-scale accident data provides an opportunity to study temporal, spatial, and environmental factors influencing accident risk at national scale.
+The dataset contains **millions of accident reports**, so Spark + ROAR
+are used for efficient processing.
 
-**Key Question:**
+# 2. Repository Structure
 
-* When and where are drivers most at risk of accidents in the U.S.?
+    Ds410-Project/
+    │
+    ├── data/          # Dataset (downloaded manually from Kaggle)
+    ├── notebooks/     # Jupyter notebooks (cleaning, EDA, temporal, weather, viz)
+    ├── src/           # PySpark scripts (loading, cleaning, aggregation)
+    └── README.md      # Main documentation (this file)
 
-**Why Big Data?**  
- Conventional methods struggle with the volume and complexity of accident records (millions of rows). Big data approaches with PySpark and Roar computing allow scalable analysis and meaningful discovery of trends across large, heterogeneous datasets.
+# 3. Dataset
 
----
+**U.S. Accidents (Kaggle)**
+https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
 
-## **2\. Project Objectives**
 
-Collect and preprocess the U.S. Car Accidents dataset (Kaggle).
+# 4. Requirements
 
-Build PySpark workflows for cleaning, transformation, and feature extraction.
+**Python Dependencies** - Python 3.x - PySpark - Pandas - Matplotlib -
+Seaborn - Jupyter Notebook / Lab
 
-Conduct large-scale temporal and spatial analysis of accidents:
+**ROAR Cluster Modules**
 
-* By day of week
+    module load anaconda3
+    module load spark
 
-* By time of day
+# 5. How to Run the Project
 
-* By city/region
+## Running on ROAR
 
-* By weather and road conditions  
-  Visualize accident patterns (heatmaps, bar charts, trend lines).
+    git clone https://github.com/Domistreng/Ds410-Project
+    cd Ds410-Project
+    module load anaconda3
+    module load spark
+    jupyter lab
 
----
+# 6. Code Components Explained
 
-## **3\. Data Description**
+## notebooks/
 
-* **Data Source:** U.S. Accidents Dataset from Kaggle (Sobhan Moosavi).
+-   Cleaning
+-   EDA
+-   Temporal patterns
+-   Weather analysis
+-   Visualizations
 
-* **Data Size:** \~7.5 million accident records; several GB of CSV files.
+## src/
 
-* **Characteristics:** Structured tabular data with temporal (timestamps), spatial (latitude/longitude, city, state), and environmental (weather, severity, road conditions) attributes.
+-   load_data.py → Spark loading
+-   cleaning.py → preprocessing
+-   analysis.py → aggregations
+-   utils.py → helper functions
 
-* **Challenges:** Missing data in weather/road conditions, skewed distribution (more data from populated areas), and potential high dimensionality in categorical attributes.
+# 7. Results Summary
 
----
+Key findings: 
+- Peak accident hours: late afternoon & early evening 
+- Mid-week has the most accidents 
+- Large cities have the highest volume
+- Weather + low visibility increase severity
 
-## **4\. Technical Approach**
+# 8. Limitations
 
-* **Tools & Frameworks:** PySpark (RDDs, DataFrames, MLlib, GraphX if relevant), possibly integration with external libraries (e.g., Pandas, Matplotlib, scikit-learn for evaluation).
+-   Uneven dataset coverage
+-   Missing weather values
+-   Local execution may be slow
+-   City/state differences may reflect population
 
-* **Cluster Usage Plan:**
 
-  1. Number of nodes (up to 4 CPU nodes).
+# 9. Team
 
-  2. Expected job types (batch processing, iterative ML training, streaming if applicable).
-
-  3. Storage requirements and file formats (e.g., Parquet, CSV, JSON).
-
-* **Pipeline Overview:**
-
-  1. Data ingestion and preprocessing.
-
-  2. Exploratory analysis (PySpark SQL, summary statistics).
-
-  3. Model building or large-scale computation.
-
-  4. Visualization and interpretation of results.
-
----
-
-## 
-
-## **5\. Expected Outcomes**
-
-* Clean, documented PySpark scripts for large-scale accident analysis.
-
-* Scalable visualizations of accident risks by time, location, and conditions.
-
-* Summary dashboard highlighting safest/dangerous driving conditions.
-
-* Final presentation and report.
-
-**Success Metrics:**
-
-* Accurate trend identification across large datasets.
-
-* Runtime improvements when scaling across cluster nodes.
-
-* Clear, interpretable visualizations.
-
----
-
-## **6\. Work Plan & Timeline**
-
-Break down project tasks into weeks
-
----
-
-## **7\. Division of Labor**
-
-Assign roles among team members, e.g.:
-
-* Data acquisition & preprocessing lead.
-
-* PySpark pipeline & ML lead.
-
-* Visualization & results lead.
-
-* Documentation & presentation lead.
-
----
-
-## **8\. Potential Challenges & Mitigation**
-
-Identify possible risks (data too large, PySpark API learning curve, cluster resource limits) and how the team will address them (data sampling, fallback tools, scheduling batch jobs).
-
----
-
-## **9\. References**
-
-List any datasets, papers, or tutorials you are drawing inspiration from.
-
-
-https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents 
----
-
+-   Osama Al-khanjry
+-   Omer Kandemir
+-   Dominic Sitto
+-   Faisal El-Mutawalli
+-   Siddhant Baghat
