@@ -1,0 +1,25 @@
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+srun: Job step aborted: Waiting up to 242 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 242 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 242 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 242 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 242 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 242 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 242 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 242 seconds for job step to finish.
+slurmstepd: error: *** STEP 46680328.0 ON p-sc-2369 CANCELLED AT 2025-11-26T15:53:35 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 46680328.1 ON p-sc-2379 CANCELLED AT 2025-11-26T15:53:35 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 46680328.6 ON p-sc-2398 CANCELLED AT 2025-11-26T15:53:35 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 46680328.5 ON p-sc-2396 CANCELLED AT 2025-11-26T15:53:35 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 46680328.2 ON p-sc-2386 CANCELLED AT 2025-11-26T15:53:35 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 46680328 ON p-sc-2369 CANCELLED AT 2025-11-26T15:53:35 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 46680328.4 ON p-sc-2382 CANCELLED AT 2025-11-26T15:53:35 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 46680328.3 ON p-sc-2389 CANCELLED AT 2025-11-26T15:53:35 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 46680328.7 ON p-sc-2390 CANCELLED AT 2025-11-26T15:53:35 DUE TO TIME LIMIT ***

@@ -62,7 +62,7 @@ echo "Master URL: $MASTER_URL"
 
 # Record the start time
 start_time=$(date +%s)
-$SPARK_HOME/bin/spark-submit --master $MASTER_URL feature_importance_analysis.py
+$SPARK_HOME/bin/spark-submit --master $MASTER_URL graphingEngineeredFeatures.py
 
 # Record the end time
 end_time=$(date +%s)

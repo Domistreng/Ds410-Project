@@ -1,0 +1,195 @@
+total-executor-cores=32
+executor-memory=32
+25/12/01 22:42:06 INFO Master: Started daemon with process name: 3716624@p-sc-2354
+25/12/01 22:42:06 INFO SignalUtils: Registering signal handler for TERM
+25/12/01 22:42:06 INFO SignalUtils: Registering signal handler for HUP
+25/12/01 22:42:06 INFO SignalUtils: Registering signal handler for INT
+25/12/01 22:42:06 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/12/01 22:42:06 INFO SecurityManager: Changing view acls to: dfs5910
+25/12/01 22:42:06 INFO SecurityManager: Changing modify acls to: dfs5910
+25/12/01 22:42:06 INFO SecurityManager: Changing view acls groups to: 
+25/12/01 22:42:06 INFO SecurityManager: Changing modify acls groups to: 
+25/12/01 22:42:06 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/12/01 22:42:07 INFO Utils: Successfully started service 'sparkMaster' on port 7077.
+25/12/01 22:42:07 INFO Master: Starting Spark master at spark://p-sc-2354:7077
+25/12/01 22:42:07 INFO Master: Running Spark version 3.3.0
+25/12/01 22:42:07 INFO Utils: Successfully started service 'MasterUI' on port 8080.
+25/12/01 22:42:07 INFO MasterWebUI: Bound MasterWebUI to 0.0.0.0, and started at http://p-sc-2354.2e.hpc.psu.edu:8080
+25/12/01 22:42:07 INFO Master: I have been elected leader! New state: ALIVE
+25/12/01 22:42:21 INFO Worker: Started daemon with process name: 1845886@p-sc-2379
+25/12/01 22:42:21 INFO Worker: Started daemon with process name: 2327724@p-sc-2386
+25/12/01 22:42:21 INFO SignalUtils: Registering signal handler for TERM
+25/12/01 22:42:21 INFO SignalUtils: Registering signal handler for HUP
+25/12/01 22:42:21 INFO SignalUtils: Registering signal handler for INT
+25/12/01 22:42:21 INFO SignalUtils: Registering signal handler for TERM
+25/12/01 22:42:21 INFO SignalUtils: Registering signal handler for HUP
+25/12/01 22:42:21 INFO SignalUtils: Registering signal handler for INT
+25/12/01 22:42:21 INFO Worker: Started daemon with process name: 1509041@p-sc-2395
+25/12/01 22:42:21 INFO SignalUtils: Registering signal handler for TERM
+25/12/01 22:42:21 INFO SignalUtils: Registering signal handler for HUP
+25/12/01 22:42:21 INFO SignalUtils: Registering signal handler for INT
+25/12/01 22:42:21 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/12/01 22:42:21 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/12/01 22:42:21 INFO SecurityManager: Changing view acls to: dfs5910
+25/12/01 22:42:21 INFO SecurityManager: Changing modify acls to: dfs5910
+25/12/01 22:42:21 INFO SecurityManager: Changing view acls groups to: 
+25/12/01 22:42:21 INFO SecurityManager: Changing modify acls groups to: 
+25/12/01 22:42:21 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/12/01 22:42:21 INFO SecurityManager: Changing view acls to: dfs5910
+25/12/01 22:42:21 INFO SecurityManager: Changing modify acls to: dfs5910
+25/12/01 22:42:21 INFO SecurityManager: Changing view acls groups to: 
+25/12/01 22:42:21 INFO SecurityManager: Changing modify acls groups to: 
+25/12/01 22:42:21 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/12/01 22:42:21 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/12/01 22:42:21 INFO SecurityManager: Changing view acls to: dfs5910
+25/12/01 22:42:21 INFO SecurityManager: Changing modify acls to: dfs5910
+25/12/01 22:42:21 INFO SecurityManager: Changing view acls groups to: 
+25/12/01 22:42:21 INFO SecurityManager: Changing modify acls groups to: 
+25/12/01 22:42:21 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/12/01 22:42:21 INFO Worker: Started daemon with process name: 3259636@p-sc-2392
+25/12/01 22:42:21 INFO SignalUtils: Registering signal handler for TERM
+25/12/01 22:42:21 INFO SignalUtils: Registering signal handler for HUP
+25/12/01 22:42:21 INFO SignalUtils: Registering signal handler for INT
+25/12/01 22:42:22 INFO Utils: Successfully started service 'sparkWorker' on port 45851.
+25/12/01 22:42:22 INFO Worker: Worker decommissioning not enabled.
+25/12/01 22:42:22 INFO Utils: Successfully started service 'sparkWorker' on port 41725.
+25/12/01 22:42:22 INFO Worker: Worker decommissioning not enabled.
+25/12/01 22:42:22 INFO Worker: Starting Spark worker 10.6.1.156:45851 with 2 cores, 63.0 GiB RAM
+25/12/01 22:42:22 INFO Worker: Running Spark version 3.3.0
+25/12/01 22:42:22 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/12/01 22:42:22 INFO Worker: Starting Spark worker 10.6.1.149:41725 with 2 cores, 63.0 GiB RAM
+25/12/01 22:42:22 INFO Worker: Running Spark version 3.3.0
+25/12/01 22:42:22 INFO ResourceUtils: ==============================================================
+25/12/01 22:42:22 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/12/01 22:42:22 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/12/01 22:42:22 INFO ResourceUtils: ==============================================================
+25/12/01 22:42:22 INFO ResourceUtils: ==============================================================
+25/12/01 22:42:22 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/12/01 22:42:22 INFO ResourceUtils: ==============================================================
+25/12/01 22:42:22 INFO Utils: Successfully started service 'sparkWorker' on port 44801.
+25/12/01 22:42:22 INFO Worker: Worker decommissioning not enabled.
+25/12/01 22:42:22 INFO Worker: Started daemon with process name: 2982497@p-sc-2373
+25/12/01 22:42:22 INFO SignalUtils: Registering signal handler for TERM
+25/12/01 22:42:22 INFO SignalUtils: Registering signal handler for HUP
+25/12/01 22:42:22 INFO SignalUtils: Registering signal handler for INT
+25/12/01 22:42:22 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/12/01 22:42:22 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/12/01 22:42:22 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/12/01 22:42:22 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-sc-2386.2e.hpc.psu.edu:8081
+25/12/01 22:42:22 INFO Worker: Connecting to master p-sc-2354:7077...
+25/12/01 22:42:22 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-sc-2379.2e.hpc.psu.edu:8081
+25/12/01 22:42:22 INFO Worker: Connecting to master p-sc-2354:7077...
+25/12/01 22:42:22 INFO TransportClientFactory: Successfully created connection to p-sc-2354/10.6.1.124:7077 after 20 ms (0 ms spent in bootstraps)
+25/12/01 22:42:22 INFO SecurityManager: Changing view acls to: dfs5910
+25/12/01 22:42:22 INFO SecurityManager: Changing modify acls to: dfs5910
+25/12/01 22:42:22 INFO SecurityManager: Changing view acls groups to: 
+25/12/01 22:42:22 INFO SecurityManager: Changing modify acls groups to: 
+25/12/01 22:42:22 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/12/01 22:42:22 INFO Worker: Starting Spark worker 10.6.1.165:44801 with 2 cores, 63.0 GiB RAM
+25/12/01 22:42:22 INFO Worker: Running Spark version 3.3.0
+25/12/01 22:42:22 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/12/01 22:42:22 INFO TransportClientFactory: Successfully created connection to p-sc-2354/10.6.1.124:7077 after 31 ms (0 ms spent in bootstraps)
+25/12/01 22:42:22 INFO ResourceUtils: ==============================================================
+25/12/01 22:42:22 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/12/01 22:42:22 INFO ResourceUtils: ==============================================================
+25/12/01 22:42:22 INFO Master: Registering worker 10.6.1.156:45851 with 2 cores, 63.0 GiB RAM
+25/12/01 22:42:22 INFO Worker: Successfully registered with master spark://p-sc-2354:7077
+25/12/01 22:42:22 INFO Master: Registering worker 10.6.1.149:41725 with 2 cores, 63.0 GiB RAM
+25/12/01 22:42:22 INFO Worker: Successfully registered with master spark://p-sc-2354:7077
+25/12/01 22:42:22 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/12/01 22:42:22 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-sc-2395.2e.hpc.psu.edu:8081
+25/12/01 22:42:22 INFO Worker: Connecting to master p-sc-2354:7077...
+25/12/01 22:42:22 INFO Worker: Started daemon with process name: 3073199@p-sc-2378
+25/12/01 22:42:22 INFO SignalUtils: Registering signal handler for TERM
+25/12/01 22:42:22 INFO SignalUtils: Registering signal handler for HUP
+25/12/01 22:42:22 INFO SignalUtils: Registering signal handler for INT
+25/12/01 22:42:22 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/12/01 22:42:22 INFO TransportClientFactory: Successfully created connection to p-sc-2354/10.6.1.124:7077 after 47 ms (0 ms spent in bootstraps)
+25/12/01 22:42:22 INFO Utils: Successfully started service 'sparkWorker' on port 39769.
+25/12/01 22:42:22 INFO Worker: Worker decommissioning not enabled.
+25/12/01 22:42:22 INFO SecurityManager: Changing view acls to: dfs5910
+25/12/01 22:42:22 INFO SecurityManager: Changing modify acls to: dfs5910
+25/12/01 22:42:22 INFO SecurityManager: Changing view acls groups to: 
+25/12/01 22:42:22 INFO SecurityManager: Changing modify acls groups to: 
+25/12/01 22:42:22 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/12/01 22:42:22 INFO Master: Registering worker 10.6.1.165:44801 with 2 cores, 63.0 GiB RAM
+25/12/01 22:42:22 INFO Worker: Successfully registered with master spark://p-sc-2354:7077
+25/12/01 22:42:22 INFO Worker: Starting Spark worker 10.6.1.162:39769 with 2 cores, 63.0 GiB RAM
+25/12/01 22:42:22 INFO Worker: Running Spark version 3.3.0
+25/12/01 22:42:22 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/12/01 22:42:22 INFO ResourceUtils: ==============================================================
+25/12/01 22:42:22 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/12/01 22:42:22 INFO ResourceUtils: ==============================================================
+25/12/01 22:42:23 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/12/01 22:42:23 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/12/01 22:42:23 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-sc-2392.2e.hpc.psu.edu:8081
+25/12/01 22:42:23 INFO Worker: Connecting to master p-sc-2354:7077...
+25/12/01 22:42:23 INFO Utils: Successfully started service 'sparkWorker' on port 40391.
+25/12/01 22:42:23 INFO Worker: Worker decommissioning not enabled.
+25/12/01 22:42:23 INFO SecurityManager: Changing view acls to: dfs5910
+25/12/01 22:42:23 INFO SecurityManager: Changing modify acls to: dfs5910
+25/12/01 22:42:23 INFO SecurityManager: Changing view acls groups to: 
+25/12/01 22:42:23 INFO SecurityManager: Changing modify acls groups to: 
+25/12/01 22:42:23 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/12/01 22:42:23 INFO TransportClientFactory: Successfully created connection to p-sc-2354/10.6.1.124:7077 after 33 ms (0 ms spent in bootstraps)
+25/12/01 22:42:23 INFO Master: Registering worker 10.6.1.162:39769 with 2 cores, 63.0 GiB RAM
+25/12/01 22:42:23 INFO Worker: Successfully registered with master spark://p-sc-2354:7077
+25/12/01 22:42:23 INFO Worker: Starting Spark worker 10.6.1.143:40391 with 2 cores, 63.0 GiB RAM
+25/12/01 22:42:23 INFO Worker: Running Spark version 3.3.0
+25/12/01 22:42:23 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/12/01 22:42:23 INFO ResourceUtils: ==============================================================
+25/12/01 22:42:23 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/12/01 22:42:23 INFO ResourceUtils: ==============================================================
+25/12/01 22:42:23 INFO Worker: Started daemon with process name: 168626@p-sc-2366
+25/12/01 22:42:23 INFO SignalUtils: Registering signal handler for TERM
+25/12/01 22:42:23 INFO SignalUtils: Registering signal handler for HUP
+25/12/01 22:42:23 INFO SignalUtils: Registering signal handler for INT
+25/12/01 22:42:23 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/12/01 22:42:23 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-sc-2373.2e.hpc.psu.edu:8081
+25/12/01 22:42:23 INFO Utils: Successfully started service 'sparkWorker' on port 42865.
+25/12/01 22:42:23 INFO Worker: Worker decommissioning not enabled.
+25/12/01 22:42:23 INFO Worker: Connecting to master p-sc-2354:7077...
+25/12/01 22:42:23 INFO TransportClientFactory: Successfully created connection to p-sc-2354/10.6.1.124:7077 after 32 ms (0 ms spent in bootstraps)
+25/12/01 22:42:23 INFO Master: Registering worker 10.6.1.143:40391 with 2 cores, 63.0 GiB RAM
+25/12/01 22:42:23 INFO Worker: Successfully registered with master spark://p-sc-2354:7077
+25/12/01 22:42:23 INFO Worker: Starting Spark worker 10.6.1.148:42865 with 2 cores, 63.0 GiB RAM
+25/12/01 22:42:23 INFO Worker: Running Spark version 3.3.0
+25/12/01 22:42:23 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/12/01 22:42:23 INFO ResourceUtils: ==============================================================
+25/12/01 22:42:23 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/12/01 22:42:23 INFO ResourceUtils: ==============================================================
+25/12/01 22:42:23 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/12/01 22:42:24 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-sc-2378.2e.hpc.psu.edu:8081
+25/12/01 22:42:24 INFO Worker: Connecting to master p-sc-2354:7077...
+25/12/01 22:42:24 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/12/01 22:42:24 INFO TransportClientFactory: Successfully created connection to p-sc-2354/10.6.1.124:7077 after 33 ms (0 ms spent in bootstraps)
+25/12/01 22:42:24 INFO Master: Registering worker 10.6.1.148:42865 with 2 cores, 63.0 GiB RAM
+25/12/01 22:42:24 INFO Worker: Successfully registered with master spark://p-sc-2354:7077
+25/12/01 22:42:24 INFO SecurityManager: Changing view acls to: dfs5910
+25/12/01 22:42:24 INFO SecurityManager: Changing modify acls to: dfs5910
+25/12/01 22:42:24 INFO SecurityManager: Changing view acls groups to: 
+25/12/01 22:42:24 INFO SecurityManager: Changing modify acls groups to: 
+25/12/01 22:42:24 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/12/01 22:42:24 INFO Utils: Successfully started service 'sparkWorker' on port 36857.
+25/12/01 22:42:24 INFO Worker: Worker decommissioning not enabled.
+25/12/01 22:42:25 INFO Worker: Starting Spark worker 10.6.1.136:36857 with 2 cores, 63.0 GiB RAM
+25/12/01 22:42:25 INFO Worker: Running Spark version 3.3.0
+25/12/01 22:42:25 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/12/01 22:42:25 INFO ResourceUtils: ==============================================================
+25/12/01 22:42:25 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/12/01 22:42:25 INFO ResourceUtils: ==============================================================
+25/12/01 22:42:25 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/12/01 22:42:25 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-sc-2366.2e.hpc.psu.edu:8081
+25/12/01 22:42:25 INFO Worker: Connecting to master p-sc-2354:7077...
+25/12/01 22:42:25 INFO TransportClientFactory: Successfully created connection to p-sc-2354/10.6.1.124:7077 after 61 ms (0 ms spent in bootstraps)
+25/12/01 22:42:25 INFO Master: Registering worker 10.6.1.136:36857 with 2 cores, 63.0 GiB RAM
+25/12/01 22:42:25 INFO Worker: Successfully registered with master spark://p-sc-2354:7077
+Master URL: spark://p-sc-2354:7077
+Dataset shape: (7728394, 58)
+
+Columns: ['ID', 'Source', 'Severity', 'Start_Time', 'End_Time', 'Start_Lat', 'Start_Lng', 'End_Lat', 'End_Lng', 'Distance(mi)', 'Description', 'Street', 'City', 'County', 'State', 'Zipcode', 'Country', 'Timezone', 'Airport_Code', 'Weather_Timestamp', 'Temperature(F)', 'Wind_Chill(F)', 'Humidity(%)', 'Pressure(in)', 'Visibility(mi)', 'Wind_Direction', 'Wind_Speed(mph)', 'Precipitation(in)', 'Weather_Condition', 'Amenity', 'Bump', 'Crossing', 'Give_Way', 'Junction', 'No_Exit', 'Railway', 'Roundabout', 'Station', 'Stop', 'Traffic_Calming', 'Traffic_Signal', 'Turning_Loop', 'Sunrise_Sunset', 'Civil_Twilight', 'Nautical_Twilight', 'Astronomical_Twilight', 'hour', 'day_of_week', 'rush_hour', 'is_weekend', 'is_clear', 'is_rainy', 'is_foggy', 'is_snowy', 'is_highway', 'is_local', 'state_encoded', 'high_accident_state']
+
+First few rows:
+25/12/01 22:44:33 INFO ShutdownHookManager: Shutdown hook called
+25/12/01 22:44:33 INFO ShutdownHookManager: Deleting directory /tmp/spark-94a9374a-b583-419b-9e23-0a687a40c9f5
+Execution time: 119 seconds

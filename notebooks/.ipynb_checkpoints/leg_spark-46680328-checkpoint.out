@@ -1,0 +1,275 @@
+total-executor-cores=32
+executor-memory=32
+25/11/26 14:23:12 INFO Master: Started daemon with process name: 1600452@p-sc-2369
+25/11/26 14:23:12 INFO SignalUtils: Registering signal handler for TERM
+25/11/26 14:23:12 INFO SignalUtils: Registering signal handler for HUP
+25/11/26 14:23:12 INFO SignalUtils: Registering signal handler for INT
+25/11/26 14:23:12 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/11/26 14:23:12 INFO SecurityManager: Changing view acls to: dfs5910
+25/11/26 14:23:12 INFO SecurityManager: Changing modify acls to: dfs5910
+25/11/26 14:23:12 INFO SecurityManager: Changing view acls groups to: 
+25/11/26 14:23:12 INFO SecurityManager: Changing modify acls groups to: 
+25/11/26 14:23:12 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/11/26 14:23:12 INFO Utils: Successfully started service 'sparkMaster' on port 7077.
+25/11/26 14:23:12 INFO Master: Starting Spark master at spark://p-sc-2369:7077
+25/11/26 14:23:12 INFO Master: Running Spark version 3.3.0
+25/11/26 14:23:13 INFO Utils: Successfully started service 'MasterUI' on port 8080.
+25/11/26 14:23:13 INFO MasterWebUI: Bound MasterWebUI to 0.0.0.0, and started at http://p-sc-2369.2e.hpc.psu.edu:8080
+25/11/26 14:23:13 INFO Master: I have been elected leader! New state: ALIVE
+25/11/26 14:23:26 INFO Worker: Started daemon with process name: 36164@p-sc-2389
+25/11/26 14:23:26 INFO SignalUtils: Registering signal handler for TERM
+25/11/26 14:23:26 INFO SignalUtils: Registering signal handler for HUP
+25/11/26 14:23:26 INFO SignalUtils: Registering signal handler for INT
+25/11/26 14:23:26 INFO Worker: Started daemon with process name: 2180988@p-sc-2398
+25/11/26 14:23:26 INFO SignalUtils: Registering signal handler for TERM
+25/11/26 14:23:26 INFO SignalUtils: Registering signal handler for HUP
+25/11/26 14:23:26 INFO SignalUtils: Registering signal handler for INT
+25/11/26 14:23:27 INFO Worker: Started daemon with process name: 3631733@p-sc-2396
+25/11/26 14:23:27 INFO Worker: Started daemon with process name: 941370@p-sc-2382
+25/11/26 14:23:27 INFO SignalUtils: Registering signal handler for TERM
+25/11/26 14:23:27 INFO SignalUtils: Registering signal handler for HUP
+25/11/26 14:23:27 INFO SignalUtils: Registering signal handler for INT
+25/11/26 14:23:27 INFO SignalUtils: Registering signal handler for TERM
+25/11/26 14:23:27 INFO SignalUtils: Registering signal handler for HUP
+25/11/26 14:23:27 INFO SignalUtils: Registering signal handler for INT
+25/11/26 14:23:27 INFO Worker: Started daemon with process name: 395453@p-sc-2379
+25/11/26 14:23:27 INFO SignalUtils: Registering signal handler for TERM
+25/11/26 14:23:27 INFO SignalUtils: Registering signal handler for HUP
+25/11/26 14:23:27 INFO SignalUtils: Registering signal handler for INT
+25/11/26 14:23:27 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/11/26 14:23:27 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/11/26 14:23:27 INFO SecurityManager: Changing view acls to: dfs5910
+25/11/26 14:23:27 INFO SecurityManager: Changing modify acls to: dfs5910
+25/11/26 14:23:27 INFO SecurityManager: Changing view acls groups to: 
+25/11/26 14:23:27 INFO SecurityManager: Changing modify acls groups to: 
+25/11/26 14:23:27 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/11/26 14:23:27 INFO SecurityManager: Changing view acls to: dfs5910
+25/11/26 14:23:27 INFO SecurityManager: Changing modify acls to: dfs5910
+25/11/26 14:23:27 INFO SecurityManager: Changing view acls groups to: 
+25/11/26 14:23:27 INFO SecurityManager: Changing modify acls groups to: 
+25/11/26 14:23:27 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/11/26 14:23:27 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/11/26 14:23:27 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/11/26 14:23:27 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/11/26 14:23:27 INFO SecurityManager: Changing view acls to: dfs5910
+25/11/26 14:23:27 INFO SecurityManager: Changing modify acls to: dfs5910
+25/11/26 14:23:27 INFO SecurityManager: Changing view acls groups to: 
+25/11/26 14:23:27 INFO SecurityManager: Changing modify acls groups to: 
+25/11/26 14:23:27 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/11/26 14:23:27 INFO SecurityManager: Changing view acls to: dfs5910
+25/11/26 14:23:27 INFO SecurityManager: Changing modify acls to: dfs5910
+25/11/26 14:23:27 INFO SecurityManager: Changing view acls groups to: 
+25/11/26 14:23:27 INFO SecurityManager: Changing modify acls groups to: 
+25/11/26 14:23:27 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/11/26 14:23:27 INFO SecurityManager: Changing view acls to: dfs5910
+25/11/26 14:23:27 INFO SecurityManager: Changing modify acls to: dfs5910
+25/11/26 14:23:27 INFO SecurityManager: Changing view acls groups to: 
+25/11/26 14:23:27 INFO SecurityManager: Changing modify acls groups to: 
+25/11/26 14:23:27 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/11/26 14:23:27 INFO Utils: Successfully started service 'sparkWorker' on port 39491.
+25/11/26 14:23:27 INFO Worker: Worker decommissioning not enabled.
+25/11/26 14:23:27 INFO Worker: Starting Spark worker 10.6.1.168:39491 with 2 cores, 63.0 GiB RAM
+25/11/26 14:23:27 INFO Utils: Successfully started service 'sparkWorker' on port 33539.
+25/11/26 14:23:27 INFO Worker: Running Spark version 3.3.0
+25/11/26 14:23:27 INFO Worker: Worker decommissioning not enabled.
+25/11/26 14:23:27 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/11/26 14:23:27 INFO ResourceUtils: ==============================================================
+25/11/26 14:23:27 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/11/26 14:23:27 INFO ResourceUtils: ==============================================================
+25/11/26 14:23:27 INFO Worker: Started daemon with process name: 1280495@p-sc-2386
+25/11/26 14:23:27 INFO SignalUtils: Registering signal handler for TERM
+25/11/26 14:23:27 INFO SignalUtils: Registering signal handler for HUP
+25/11/26 14:23:27 INFO SignalUtils: Registering signal handler for INT
+25/11/26 14:23:27 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/11/26 14:23:27 INFO Utils: Successfully started service 'sparkWorker' on port 39499.
+25/11/26 14:23:27 INFO Worker: Worker decommissioning not enabled.
+25/11/26 14:23:27 INFO Utils: Successfully started service 'sparkWorker' on port 45195.
+25/11/26 14:23:27 INFO Utils: Successfully started service 'sparkWorker' on port 37415.
+25/11/26 14:23:27 INFO Worker: Worker decommissioning not enabled.
+25/11/26 14:23:27 INFO Worker: Worker decommissioning not enabled.
+25/11/26 14:23:27 INFO Worker: Starting Spark worker 10.6.1.159:33539 with 2 cores, 63.0 GiB RAM
+25/11/26 14:23:27 INFO Worker: Running Spark version 3.3.0
+25/11/26 14:23:27 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/11/26 14:23:27 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-sc-2398.2e.hpc.psu.edu:8081
+25/11/26 14:23:27 INFO Worker: Connecting to master p-sc-2369:7077...
+25/11/26 14:23:27 INFO ResourceUtils: ==============================================================
+25/11/26 14:23:27 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/11/26 14:23:27 INFO ResourceUtils: ==============================================================
+25/11/26 14:23:27 INFO TransportClientFactory: Successfully created connection to p-sc-2369/10.6.1.139:7077 after 26 ms (0 ms spent in bootstraps)
+25/11/26 14:23:27 INFO Worker: Starting Spark worker 10.6.1.166:39499 with 2 cores, 63.0 GiB RAM
+25/11/26 14:23:27 INFO Worker: Running Spark version 3.3.0
+25/11/26 14:23:27 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/11/26 14:23:27 INFO Worker: Starting Spark worker 10.6.1.149:45195 with 2 cores, 63.0 GiB RAM
+25/11/26 14:23:27 INFO Worker: Running Spark version 3.3.0
+25/11/26 14:23:27 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/11/26 14:23:27 INFO ResourceUtils: ==============================================================
+25/11/26 14:23:27 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/11/26 14:23:27 INFO ResourceUtils: ==============================================================
+25/11/26 14:23:27 WARN Utils: Service 'WorkerUI' could not bind on port 8081. Attempting port 8082.
+25/11/26 14:23:27 INFO Utils: Successfully started service 'WorkerUI' on port 8082.
+25/11/26 14:23:27 INFO ResourceUtils: ==============================================================
+25/11/26 14:23:27 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/11/26 14:23:27 INFO ResourceUtils: ==============================================================
+25/11/26 14:23:28 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-sc-2389.2e.hpc.psu.edu:8082
+25/11/26 14:23:28 INFO Worker: Connecting to master p-sc-2369:7077...
+25/11/26 14:23:28 INFO Worker: Starting Spark worker 10.6.1.152:37415 with 2 cores, 63.0 GiB RAM
+25/11/26 14:23:28 INFO Worker: Running Spark version 3.3.0
+25/11/26 14:23:28 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/11/26 14:23:28 INFO ResourceUtils: ==============================================================
+25/11/26 14:23:28 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/11/26 14:23:28 INFO ResourceUtils: ==============================================================
+25/11/26 14:23:28 INFO Master: Registering worker 10.6.1.168:39491 with 2 cores, 63.0 GiB RAM
+25/11/26 14:23:28 INFO Worker: Successfully registered with master spark://p-sc-2369:7077
+25/11/26 14:23:28 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/11/26 14:23:28 INFO TransportClientFactory: Successfully created connection to p-sc-2369/10.6.1.139:7077 after 42 ms (0 ms spent in bootstraps)
+25/11/26 14:23:28 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-sc-2396.2e.hpc.psu.edu:8081
+25/11/26 14:23:28 INFO Worker: Connecting to master p-sc-2369:7077...
+25/11/26 14:23:28 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/11/26 14:23:28 INFO Master: Registering worker 10.6.1.159:33539 with 2 cores, 63.0 GiB RAM
+25/11/26 14:23:28 INFO Worker: Successfully registered with master spark://p-sc-2369:7077
+25/11/26 14:23:28 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-sc-2379.2e.hpc.psu.edu:8081
+25/11/26 14:23:28 INFO Worker: Connecting to master p-sc-2369:7077...
+25/11/26 14:23:28 INFO TransportClientFactory: Successfully created connection to p-sc-2369/10.6.1.139:7077 after 27 ms (0 ms spent in bootstraps)
+25/11/26 14:23:28 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/11/26 14:23:28 INFO TransportClientFactory: Successfully created connection to p-sc-2369/10.6.1.139:7077 after 30 ms (0 ms spent in bootstraps)
+25/11/26 14:23:28 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/11/26 14:23:28 INFO Master: Registering worker 10.6.1.166:39499 with 2 cores, 63.0 GiB RAM
+25/11/26 14:23:28 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-sc-2382.2e.hpc.psu.edu:8081
+25/11/26 14:23:28 INFO Worker: Connecting to master p-sc-2369:7077...
+25/11/26 14:23:28 INFO Worker: Successfully registered with master spark://p-sc-2369:7077
+25/11/26 14:23:28 INFO Master: Registering worker 10.6.1.149:45195 with 2 cores, 63.0 GiB RAM
+25/11/26 14:23:28 INFO Worker: Successfully registered with master spark://p-sc-2369:7077
+25/11/26 14:23:28 INFO SecurityManager: Changing view acls to: dfs5910
+25/11/26 14:23:28 INFO SecurityManager: Changing modify acls to: dfs5910
+25/11/26 14:23:28 INFO SecurityManager: Changing view acls groups to: 
+25/11/26 14:23:28 INFO SecurityManager: Changing modify acls groups to: 
+25/11/26 14:23:28 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/11/26 14:23:28 INFO TransportClientFactory: Successfully created connection to p-sc-2369/10.6.1.139:7077 after 44 ms (0 ms spent in bootstraps)
+25/11/26 14:23:28 INFO Worker: Started daemon with process name: 490245@p-sc-2390
+25/11/26 14:23:28 INFO SignalUtils: Registering signal handler for TERM
+25/11/26 14:23:28 INFO SignalUtils: Registering signal handler for HUP
+25/11/26 14:23:28 INFO SignalUtils: Registering signal handler for INT
+25/11/26 14:23:28 INFO Master: Registering worker 10.6.1.152:37415 with 2 cores, 63.0 GiB RAM
+25/11/26 14:23:28 INFO Worker: Successfully registered with master spark://p-sc-2369:7077
+25/11/26 14:23:28 INFO Utils: Successfully started service 'sparkWorker' on port 41723.
+25/11/26 14:23:28 INFO Worker: Worker decommissioning not enabled.
+25/11/26 14:23:28 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/11/26 14:23:29 INFO SecurityManager: Changing view acls to: dfs5910
+25/11/26 14:23:29 INFO SecurityManager: Changing modify acls to: dfs5910
+25/11/26 14:23:29 INFO SecurityManager: Changing view acls groups to: 
+25/11/26 14:23:29 INFO SecurityManager: Changing modify acls groups to: 
+25/11/26 14:23:29 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dfs5910); groups with view permissions: Set(); users  with modify permissions: Set(dfs5910); groups with modify permissions: Set()
+25/11/26 14:23:29 INFO Worker: Starting Spark worker 10.6.1.156:41723 with 2 cores, 63.0 GiB RAM
+25/11/26 14:23:29 INFO Worker: Running Spark version 3.3.0
+25/11/26 14:23:29 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/11/26 14:23:29 INFO ResourceUtils: ==============================================================
+25/11/26 14:23:29 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/11/26 14:23:29 INFO ResourceUtils: ==============================================================
+25/11/26 14:23:29 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/11/26 14:23:29 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-sc-2386.2e.hpc.psu.edu:8081
+25/11/26 14:23:29 INFO Worker: Connecting to master p-sc-2369:7077...
+25/11/26 14:23:29 INFO Utils: Successfully started service 'sparkWorker' on port 43671.
+25/11/26 14:23:29 INFO Worker: Worker decommissioning not enabled.
+25/11/26 14:23:29 INFO TransportClientFactory: Successfully created connection to p-sc-2369/10.6.1.139:7077 after 41 ms (0 ms spent in bootstraps)
+25/11/26 14:23:29 INFO Master: Registering worker 10.6.1.156:41723 with 2 cores, 63.0 GiB RAM
+25/11/26 14:23:29 INFO Worker: Successfully registered with master spark://p-sc-2369:7077
+25/11/26 14:23:29 INFO Worker: Starting Spark worker 10.6.1.160:43671 with 2 cores, 63.0 GiB RAM
+25/11/26 14:23:29 INFO Worker: Running Spark version 3.3.0
+25/11/26 14:23:29 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/11/26 14:23:30 INFO ResourceUtils: ==============================================================
+25/11/26 14:23:30 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/11/26 14:23:30 INFO ResourceUtils: ==============================================================
+25/11/26 14:23:30 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/11/26 14:23:30 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-sc-2390.2e.hpc.psu.edu:8081
+25/11/26 14:23:30 INFO Worker: Connecting to master p-sc-2369:7077...
+25/11/26 14:23:30 INFO TransportClientFactory: Successfully created connection to p-sc-2369/10.6.1.139:7077 after 69 ms (0 ms spent in bootstraps)
+25/11/26 14:23:30 INFO Master: Registering worker 10.6.1.160:43671 with 2 cores, 63.0 GiB RAM
+25/11/26 14:23:30 INFO Worker: Successfully registered with master spark://p-sc-2369:7077
+Master URL: spark://p-sc-2369:7077
+Dataset shape: (7728394, 46)
+
+Columns: ['ID', 'Source', 'Severity', 'Start_Time', 'End_Time', 'Start_Lat', 'Start_Lng', 'End_Lat', 'End_Lng', 'Distance(mi)', 'Description', 'Street', 'City', 'County', 'State', 'Zipcode', 'Country', 'Timezone', 'Airport_Code', 'Weather_Timestamp', 'Temperature(F)', 'Wind_Chill(F)', 'Humidity(%)', 'Pressure(in)', 'Visibility(mi)', 'Wind_Direction', 'Wind_Speed(mph)', 'Precipitation(in)', 'Weather_Condition', 'Amenity', 'Bump', 'Crossing', 'Give_Way', 'Junction', 'No_Exit', 'Railway', 'Roundabout', 'Station', 'Stop', 'Traffic_Calming', 'Traffic_Signal', 'Turning_Loop', 'Sunrise_Sunset', 'Civil_Twilight', 'Nautical_Twilight', 'Astronomical_Twilight']
+
+First few rows:
+Severity distribution:
+Severity
+1      67366
+2    6156981
+3    1299337
+4     204710
+Name: count, dtype: int64
+
+Severity distribution percentage:
+Severity
+1     0.871669
+2    79.667017
+3    16.812510
+4     2.648804
+Name: proportion, dtype: float64
+Available features: 26 out of 26
+
+Missing features: set()
+Final dataset shape: (7728394, 27)
+Missing values: 0
+================================================================================
+STATISTICAL SUMMARY: Parameter Differences Across Severity Levels
+================================================================================
+
+Temperature(F):
+------------------------------------------------------------
+           mean  median    std   min    max
+Severity                                   
+1         72.42    73.0  13.65 -35.0  114.0
+2         61.55    64.0  19.04 -89.0  207.0
+3         62.20    64.9  18.79 -89.0  203.0
+4         58.14    60.1  19.71 -40.0  207.0
+
+  Mean difference (max-min): 14.28 (24.6% change)
+
+Wind_Chill(F):
+------------------------------------------------------------
+           mean  median    std   min    max
+Severity                                   
+1         72.24    73.0  14.11 -35.0  114.0
+2         58.58    62.0  22.10 -89.0  207.0
+3         55.73    61.0  24.07 -89.0  117.0
+4         53.34    57.0  23.38 -65.9  207.0
+
+  Mean difference (max-min): 18.90 (35.4% change)
+
+Humidity(%):
+------------------------------------------------------------
+           mean  median    std  min    max
+Severity                                  
+1         61.91    67.0  26.66  2.0  100.0
+2         64.67    67.0  22.88  1.0  100.0
+3         65.38    67.0  22.31  1.0  100.0
+4         67.30    70.0  22.49  1.0  100.0
+
+  Mean difference (max-min): 5.39 (8.7% change)
+
+Pressure(in):
+------------------------------------------------------------
+           mean  median   std    min    max
+Severity                                   
+1         29.21   29.53  1.12  19.64  30.71
+2         29.52   29.84  1.01   0.00  58.63
+3         29.69   29.92  0.91   0.00  58.32
+4         29.41   29.81  1.29  19.74  31.12
+
+  Mean difference (max-min): 0.48 (1.6% change)
+
+Visibility(mi):
+------------------------------------------------------------
+          mean  median   std  min    max
+Severity                                
+1         9.48    10.0  1.88  0.0   75.0
+2         9.09    10.0  2.63  0.0  140.0
+3         9.09    10.0  2.96  0.0  140.0
+4         9.06    10.0  2.86  0.0  120.0
+
+  Mean difference (max-min): 0.41 (4.6% change)
+
+================================================================================
+Training set: 6182715 samples
+Test set: 1545679 samples

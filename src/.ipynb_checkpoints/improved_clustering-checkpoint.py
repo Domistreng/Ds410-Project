@@ -141,6 +141,7 @@ df_spatial = df_spatial.withColumn(
 
 print("Added spatial features: state_encoded, high_accident_state")
 df_spatial.select("State", "state_encoded", "high_accident_state").show(5)
+df_spatial.coalesce(1).write.option("header", True).csv("../data/processed/engineeredParams")
 
 
 # In[7]:
