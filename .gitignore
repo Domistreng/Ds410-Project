@@ -1,0 +1,21 @@
+# Data files
+data/raw/*.csv
+*.csv
+
+# Spark work directories
+src/spark_work/
+notebooks/spark_work/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Spark logs
+*.out
+*.err
+
